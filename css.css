@@ -1,0 +1,150 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(51, 51, 51);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin-left: -7.8px;
+    padding-left: 5%;
+    height: 55px;
+}
+li {
+ float: left;
+    font-size: large;
+    font-weight: bolder;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: all .5s ease;
+    border-bottom: 0px solid;
+}
+.ou {
+    background-color: #4CAF50;
+}
+li a:hover:not(.ou) {
+    background-color: #111;
+}
+@keyframes show {
+    0% {
+        margin-top:-360px; 
+        transform:translateY(30);
+    }
+    100% {
+        margin-top:0px;  
+    }
+}
+@keyframes showbig {
+    0% {
+        margin-top:-800px; 
+        transform:translateY(30);
+    }
+    100% {
+        margin-top:24px;  
+    }
+}
+body {
+    background-color: #fff;
+}
+div {
+    text-align: left;
+    color: #252525;
+}
+.one {
+    text-shadow: 1.2px 1.2px 0px red, -1.2px -1.2px 0px blue, 6.2px 6.2px 2.2px #3c3c3c;
+}
+button {
+    background-color: #c8a6f0;
+    border-radius: 20px;
+    box-shadow: 2px 2px 1px #3c3c3c;
+    font-size: 18px;
+}
+button:hover {
+    background-color: #a15fec;
+}
+table {
+    border-radius: 10px;
+    background-color:#e2e2e2;
+    animation: show 1.2s;
+    margin-top: 0px;
+}
+tr {
+    text-align: center;
+}
+td {
+    border-radius: 10px;
+    font-size: 22px;
+    text-align: center;
+}
+a {
+    color: rgb(28, 146, 214);
+    text-decoration: none;
+}
+a:hover:not(.ou) {
+    color: rgb(141, 63, 230);
+}
+img:hover {
+    animation: show2 1.5s;
+}
+.divone {
+    background-color: #131212;
+}
+.beginimg{
+    margin-top: 30px;
+    animation: showbig 2.2s;
+    background-image: url(https://cdn.luogu.com.cn/upload/image_hosting/crbbaiaz.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment:fixed;
+    height: 80vh;
+    width: 120%;
+    margin-left: -1vw;
+}
+h3 {
+    font-size: 10px;
+}
+.main{
+    animation: showbig 1s;
+    transition: all .5s ease; 
+    background-color: #e9e9e9;
+    margin: 3%;
+    padding: 3%;
+    border-radius: 15px;
+}
+.sh {
+    animation: showbig 1s;
+    transition: all .5s ease; 
+    background-color: #ffffff;
+    margin: 4%;
+    padding: 4%;
+    border-radius: 15px;
+}
+.three {
+    font-size: 36px;
+}
+.sh:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 4px 4px #5c5c5c;
+}
+.shtable {
+    background-color: rgb(228, 227, 227);
+}
+.othersh {
+    background-color: #ffffff;
+    margin: 2%;
+    margin-left: 8%;
+    margin-right: 8%;
+    padding: 2%;
+    border-radius: 15px;
+    text-align: center;
+}
+.othersh:hover {
+    transform: translateY(-10px);
+}
