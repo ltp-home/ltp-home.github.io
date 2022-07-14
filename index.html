@@ -11,7 +11,11 @@
 		<canvas id="myCanvas" width="200" height="100" style="border:1px solid #d3d3d3;">
 您的浏览器不支持 HTML5 canvas 标签。</canvas>
 		<script>
-
+		var c=document.getElementById("myCanvas");
+		var ctx=c.getContext("2d");
+		ctx.rect(20,20,800,100);
+		ctx.fillStyle="green";
+		ctx.fill();
 		var c=document.getElementById("myCanvas");
 		var ctx=c.getContext("2d");
 
