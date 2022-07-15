@@ -18,6 +18,7 @@ li {
  float: left;
     font-size: large;
     font-weight: bolder;
+    text-align: center;
 }
 li a {
     display: block;
